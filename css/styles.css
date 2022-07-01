@@ -17,6 +17,7 @@
   --main-normal-text-color: #212121;
   --main-text-color: #757575;
   --main-link-color: #2196f3;
+  --white-text: white;
   /*   END OF COLORS USED ON PAGE      */
 }
 
@@ -26,6 +27,7 @@ body {
 }
 /* GŁÓWNY KONTENER NAVBAROWY */
 .menu-container {
+  font-size: 14px;
   display: flex;
   align-items: center;
   stroke: #ececec;
@@ -34,7 +36,6 @@ body {
 /** | GÓRNY PASEK | **/
 /* STYLIZUJE LOGO TEKSTOWE W PASKU GÓRNYM */
 .menu-text-logo {
-  margin-left: 215px;
   font-family: var(--primary-font);
   font-weight: 700;
   text-align: left;
@@ -55,14 +56,11 @@ body {
 /* POCZĄTEK: STYLIZACJA NAVBARU */
 
 .navbar {
-  margin-left: 93px;
 }
 
 .nav-core {
   padding: 0;
-  gap: 46px;
   list-style: none;
-  display: flex;
 }
 
 .nav-core-link {
@@ -74,8 +72,80 @@ body {
   color: var(--main-link-color);
 }
 
-.menu-contact {
-  margin-left: 371px;
+.menu-header h1 {
+  font-size: 44px;
+  text-align: center;
+}
+
+.menu-header button {
+  font-size: 16px;
+  line-height: 30px;
+  font-family: var(--main-font);
+  font-weight: 700;
 }
 /* KONIEC: STYLIZACJA NAVBARU */
 /** | KONIEC GÓRNEGO PASKA | **/
+
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--main-normal-text-color);
+}
+
+.post-skills {
+  height: 75px;
+  width: 270px;
+  font-size: 14px;
+}
+
+.post-skills h3 {
+  font-size: 14px;
+  line-height: auto;
+}
+
+.post-skills p {
+  font-weight: normal;
+  line-height: 24px;
+}
+
+.post-skill-list {
+  list-style: none;
+}
+
+.team-list {
+  list-style: none;
+}
+
+.team-list-person-description {
+  font-size: 16px;
+}
+
+.team-list-person-description h4 {
+  color: #212121;
+  font-weight: 500;
+}
+
+/*PORTFOLIO.HTML STYLES*/
+
+.things-filter-list {
+  list-style: none;
+}
+
+.things-filter-list button {
+  font-family: var(--main-font);
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+}
+
+.things-card-desc h3 {
+  color: var(--main-normal-text-color);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.things-card-desc p {
+  font-size: 16px;
+  line-height: 30px;
+}
