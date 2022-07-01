@@ -5,29 +5,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <!-- NAGŁÓWEK STRONY-->
     <header>
-        <nav>
-            <!-- KONTENER NAV -->
-            <div>
-                <H2><a href="index.html">WebStudio</a></H2>
-                <div>
-                    <a href="/Agencja">Agencja</a>
-                    <a href="/Portfolio">Portfolio</a>
-                    <a href="/Kontakt">Kontakt</a>
-                </div>
+        <div class="menu-container">
+            <H2 class="menu-text-logo"><a href="index.html"><span>Web</span>Studio</a></H2>
+            <nav class="navbar">
+                <!-- KONTENER NAV -->
+                <ul class="nav-core">
+                    <li><a class="nav-core-link" href="agencja.html">Agencja</a></li>
+                    <li><a class="nav-core-link" href="portfolio.html">Portfolio</a></li>
+                    <li><a class="nav-core-link" href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+            <div class="menu-contact">
+                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a href="tel:+48111111111">+48 111 111 111</a>
             </div>
-        </nav>
-        <div>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a href="tel:+48111111111">+48 111 111 111</a>
         </div>
-        <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button>Zamów usługę</button>
+        <div class="menu-header">
+            <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+            <button>Zamów usługę</button>
+        </div>
     </header>
     <!-- GŁÓWNA ZAWARTOŚĆ STRONY-->
     <main>
@@ -80,7 +88,7 @@
         </div>
         <div id="nasz_zespol">
             <h2>Nasz zespół</h2>
-            <ul>
+            <ul class="team-list">
                 <li>
                     <figure>
                         <img src="images/j1.jpg" width="270" height="260" alt="John Doe" />

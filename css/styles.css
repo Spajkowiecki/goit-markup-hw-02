@@ -1,0 +1,81 @@
+:root {
+  /* FONT USED ON PAGE */
+  /*
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Raleway', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+  
+  */
+  --main-font: "Roboto", sans-serif;
+  --primary-font: "Raleway", sans-serif;
+  /*   END OF FONTS ON PAGE            */
+  /*   COLORS USED ON PAGE             */
+  --logo-color: #000000;
+  --main-normal-text-color: #212121;
+  --main-text-color: #757575;
+  --main-link-color: #2196f3;
+  /*   END OF COLORS USED ON PAGE      */
+}
+
+body {
+  font-family: var(--main-font);
+  color: var(--main-text-color);
+}
+/* GŁÓWNY KONTENER NAVBAROWY */
+.menu-container {
+  display: flex;
+  align-items: center;
+  stroke: #ececec;
+}
+
+/** | GÓRNY PASEK | **/
+/* STYLIZUJE LOGO TEKSTOWE W PASKU GÓRNYM */
+.menu-text-logo {
+  margin-left: 215px;
+  font-family: var(--primary-font);
+  font-weight: 700;
+  text-align: left;
+  letter-spacing: 3%;
+  font-size: 26px;
+  line-height: auto;
+}
+
+.menu-text-logo a {
+  text-decoration: none;
+  color: var(--logo-color);
+}
+
+.menu-text-logo span {
+  color: var(--main-link-color);
+}
+/* KONIEC STYLIZACJI LOGO W PASKU*/
+/* POCZĄTEK: STYLIZACJA NAVBARU */
+
+.navbar {
+  margin-left: 93px;
+}
+
+.nav-core {
+  padding: 0;
+  gap: 46px;
+  list-style: none;
+  display: flex;
+}
+
+.nav-core-link {
+  text-decoration: none;
+  color: var(--main-normal-text-color);
+}
+
+.nav-core-link:hover {
+  color: var(--main-link-color);
+}
+
+.menu-contact {
+  margin-left: 371px;
+}
+/* KONIEC: STYLIZACJA NAVBARU */
+/** | KONIEC GÓRNEGO PASKA | **/
