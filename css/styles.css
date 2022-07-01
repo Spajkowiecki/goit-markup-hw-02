@@ -55,20 +55,17 @@ body {
 /* KONIEC STYLIZACJI LOGO W PASKU*/
 /* POCZĄTEK: STYLIZACJA NAVBARU */
 
-.navbar {
-}
-
 .nav-core {
   padding: 0;
   list-style: none;
 }
 
-.nav-core-link {
+.core-link {
   text-decoration: none;
   color: var(--main-normal-text-color);
 }
 
-.nav-core-link:hover {
+.core-link:hover {
   color: var(--main-link-color);
 }
 
